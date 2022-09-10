@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+nav {
+    height:80px;
+    background-color: black;
+
+}
+nav .toggeLerBtn {
+    background-color:rgb(78, 73, 66);
+    color:White;
+    margin-left: 40px;
+    text-align: center;
+    line-height: 80px;
+    display: block;
+    height:80px;
+    width:100px;
+    font-size: 30px;
+}
+nav .toggeLrBtn{
+    background-color:rgb(78, 73, 66);
+    color:rgb(148, 13, 13);
+    margin-left: 40px;
+    text-align: center;
+    line-height: 80px;
+    height:80px;
+    width:100px;
+    font-size: 30px;
+    display: block;
+}
+nav .toggeLrBtn{
+    display: none;
+}
+.sidebar{
+    width:400px;
+    height:calc(100vh - 80px);
+   
+    background-color: burlywood;
+    padding: 20px 70px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transform: scaleX(0);
+    transform-origin: left;
+    font-size: 25px;
+    font-family: arial;
+    transition: 0.9s;
+    
+   
+    
+}
+.sidebar a{
+    text-decoration: none;
+    margin-top: 40px;
+    display: block;
+    color:darkolivegreen;
+
+}
+.activeSidebar{
+    transform:scaleX(1);
+}
+.min{
+    background-color: #fff;
+    transition: 0.9s;
+}
+
+.MinDivColo{
+    background-color: black;
+    transition: 0.9s;
+    
+}
+
+.button{
+    display: flex;
+    position: absolute;
+    margin-top: -340px;
+    margin-left: 50%;
+}
+.button h2{
+    font-size: 40px;
+   color:black;
+}
+.button .Btn{
+    width: 60px;
+    height:60px;
+    background-color: black;
+    font-size: 35px;
+    display: block;
+    text-align: center;
+    line-height:60px;
+    margin-left: 30px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.button .Btn .dark{
+    color:rgb(255, 0, 0);  
+}
+.button .Btn .light{
+    width: 60px;
+    height:60px;
+    background-color: black;
+    display: block;
+    color:#fff;
+    border-radius: 4px;
+   
+}
+.button .Btn .dark{
+    margin-top:100px ;
+}
+nav .toggeLrBtn{
+    background-color:rgb(78, 73, 66);
+    color:rgb(148, 13, 13);
+    margin-left: 70px;
+    text-align: center;
+    line-height: 80px;
+    height:80px;
+    width:100px;
+    font-size: 30px;
+    display: block;
+}
+nav .toggeLrBtn{
+    display: none;
+}
